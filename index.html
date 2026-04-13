@@ -1,106 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madan Bhandari</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madan Bhandari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+
+<script src="main.js"></script>
+
 </head>
 <body>
-    <!-- header starts grom here  -->
-    <header>
-    <div class="head">
-    <nav>
-        <div class="logo">
-         <h1>Madan Bhandari</h1>
-        </div>
-            <div class="topic">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Contact</a>
-                    <a href="">Works</a>                    
-            </div>
-    </div>
-    </nav>
-    </header>
-    <hr>
-<!-- header ends here  -->
-<!-- body starts from here  -->
-<div class="img"><img src="madan.png" alt="">
-<h2><p>Hello There <br>the name is madan bhandari
-</p></h2>
-</div>
-    
-<!-- about me starts  -->
-<div class="about_me">  <p><h1>About ME</h1></p> </div>
-<div class="about">
-    
-    <img src="img1.jpeg" alt="">
-    <p>Hi i am madan bhandari<br> I am a student of CCT. I am currently studying BCA-I.</p>
 
-</div>
-<!-- abiut me ends  -->
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Madan Bhandari</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-<!-- Likes starts here  -->
-<div class="likes">
-    <p>
-       <h1>What I Like</h1>
-    </p> 
-</div>
-<div class="wrap">
-    <div class="card">
-        <img src="img1.jpeg" alt="">
-        <div class="container">
-            <h4><b>Science <br>Charles Darwin is the GOAT</b></h4>
-        </div>
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow">BCA Student &middot; CCT</div>
+      <h1 class="hero-name">
+        Madan<br><span>Bhandari</span>
+      </h1>
+      <p class="hero-desc">
+       add text here
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
     </div>
-    <div class="card">
-        <img src="aot.jpeg" alt="">
-        <div class="container">
-            <h4><b>Anime <br> AOT is the best</b></h4>
-        </div>
+    <div class="hero-image">
+      <div class="hero-img-wrap">
+        <img src="madan.png" alt="Madan Bhandari">
+      </div>
     </div>
-    <div class="card">
-        <img src="rgb.jpeg" alt="">
-        <div class="container">
-            <h4><b>Hardware <br> RGB makes computer fast</b></h4>
-        </div>
-    </div>
+  </section>
 
-</div>
-<!-- likes ends  -->
-<!-- contact starts  -->
-<div class="contact">
-    <p>Contact Me</p>
-</div>
-<div class="contact_box">
-    <form>
-        <input type="text" class="input-field" placeholder="Your_name"><br>
-        <input type="email" class="input-field" placeholder="Your_Email"><br>
-        <input type="text" class="input-field" placeholder="Subject"><br>
-        <textarea type="text" class="input-field" placeholder="Leave_a_message"></textarea>
-        <input type="button" class="input-button" placeholder="submit">
-    </form>
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+    <div class="fade-in">
+      <div class="section-label">Who I Am</div>
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <div class="about-grid fade-in">
+      <img src="img1.jpeg" alt="Madan" class="about-img">
+      <div>
+        <div class="about-text">
+          <p>text here</p>
+          <p>text here</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <div class="stat-number">BCA</div>
+            <div class="stat-label">Current Program</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">CCT</div>
+            <div class="stat-label">College</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">4th</div>
+            <div class="stat-label">Year</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</div>
-<footer>
-    <div class="footer-content">
-        <h3>Madan Bhandari</h3>
-        <p>For more information contact me in my socials below</p>
-        <ul class="socials">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-        </ul>
+  <!-- INTERESTS -->
+  <section id="interests" class="interests-section">
+    <div class="fade-in">
+      <div class="section-label">Passions</div>
+      <h2 class="section-title">What I Like</h2>
     </div>
-    <div class="footer-bottom">
-        <p>copyright &copy;2023 madan bhandari. designed by <span>madan bhandari</span></p>
+    <div class="cards-grid fade-in">
+      <div class="interest-card">
+        <img src="img1.jpeg" alt="Science">
+        <div class="interest-overlay">
+          <span class="interest-num">01</span>
+          <div class="interest-title">Science</div>
+          <div class="interest-sub">text here</div>
+        </div>
+      </div>
+      <div class="interest-card">
+        <img src="" alt="img">
+        <div class="interest-overlay">
+          <span class="interest-num">02</span>
+          <div class="interest-title">text here</div>
+          <div class="interest-sub">text here</div>
+        </div>
+      </div>
+      <div class="interest-card">
+        <img src="rgb.jpeg" alt="Hardware">
+        <div class="interest-overlay">
+          <span class="interest-num">03</span>
+          <div class="interest-title">Hardware</div>
+          <div class="interest-sub">text here</div>
+        </div>
+      </div>
     </div>
-</footer>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="fade-in">
+      <div class="section-label">Let's Talk</div>
+      <h2 class="section-title">Contact Me</h2>
+    </div>
+    <div class="contact-inner fade-in">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>Have something to say? Drop me a message and I'll get back to you.</p>
+        <div class="contact-line"><i class="fa fa-envelope"></i> madanbhandari@email.com</div>
+        <div class="contact-line"><i class="fa fa-map-marker"></i> Nepal</div>
+        <div class="contact-line"><i class="fa fa-graduation-cap"></i> CCT College</div>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Leave a message..."></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Madan Bhandari</div>
+    <p class="footer-copy">&copy; 2024 Madan Bhandari. Designed with passion.</p>
+    <ul class="socials">
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+      <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+    </ul>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
 
 </body>
 </html>
